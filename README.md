@@ -53,23 +53,34 @@ registration number 24900367
 
 
 
-'''module ex11(out,clk,rst); 
+```module ex11(out,clk,rst); 
+
 input clk,rst;
+
 output reg [3:0]out; 
-always @ (posedge clk) 
+
+always @ (posedge clk)
+
 begin 
+
   if(rst) 
+  
     out<=0; 
+    
   else 
+  
   out <= out+1; 
-end endmodule'''
+  
+end 
+endmodule
+```
 
 
 
 
 
 
-**RTL LOGIC UP COUNTER**
+**RTL LOGIC FOR UP COUNTER**
 
 
 
@@ -78,7 +89,7 @@ end endmodule'''
 
 
 
-**TIMING DIAGRAM FOR IP COUNTER**
+**TIMING DIAGRAM FOR UP COUNTER**
 
 
 
