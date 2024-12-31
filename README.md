@@ -53,7 +53,8 @@ registration number 24900367
 
 
 
-```module ex11(out,clk,rst); 
+```
+module ex11(out,clk,rst); 
 
 input clk,rst;
 
